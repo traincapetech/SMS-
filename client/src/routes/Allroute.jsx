@@ -6,7 +6,7 @@ import Assignments from "../pages/Assignments";
 import TeacherDashboard from "../pages/TeacherDashboard";
 import ClassesPage from "../pages/ClassesPage";
 import ViewStudent from "../pages/ViewStudent";
-import StudentLogin from "../componenets/studentLogin";
+import StudentLogin from "../componenets/StudentLogin";
 import StudentDashboard from "../pages/StudentDashboard";
 
 
@@ -19,6 +19,7 @@ const AllRoute = () => {
       <Route path="/teacherLogin" element={<StudentLogin />} />
       <Route path="/teacherDashboard" element={<TeacherDashboard />} />
       <Route path="/StudentDashboard" element={<StudentDashboard />} />
+      <Route path="/StudentLogin" element={<StudentLogin/>}></Route>
       <Route path="/classes" element={<ClassesPage />} />
     </Routes>
   );
